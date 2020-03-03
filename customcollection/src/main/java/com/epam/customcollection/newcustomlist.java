@@ -24,6 +24,7 @@ public class newcustomlist extends customlist
 		clist.print();
 		  System.out.println();
 		  System.out.println();
+		  //deletion from list
 		System.out.println("2.element to be deleted-->kumar");
 	   clist.delete("kumar");
 	   System.out.println("element deleted");
@@ -40,6 +41,7 @@ public class newcustomlist extends customlist
 	  
 	   System.out.println();
 	   System.out.println();
+	   //traversal from list
 	   System.out.println("6.element at position -5");
 	   System.out.println("--------------------");
 	   clist.getelement(4);
